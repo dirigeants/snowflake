@@ -51,8 +51,24 @@ ava('Snowflake.generate(Date)', (test): void => {
 	test.is(snow.toString(), testID);
 });
 
-ava('Snowflake.generate(invalid)', (test): void => {
+ava('Snowflake.generate(now)', (test): void => {
+	test.plan(2);
+
+	const testTimestamp = Date.now();
+	const snow = Snowflake.generate();
+
+	test.is(snow.timestamp, testTimestamp);
+	test.deepEqual(snow.date, new Date(testTimestamp));
+});
+
+ava('Snowflake.generate(NaN)', (test): void => {
 	// eslint-disable-next-line @typescript-eslint/ban-ts-ignore
 	// @ts-ignore
 	test.throws(() => Snowflake.generate('foo'), { instanceOf: TypeError });
+});
+
+ava('Snowflake.generate(invalid)', (test): void => {
+	// eslint-disable-next-line @typescript-eslint/ban-ts-ignore
+	// @ts-ignore
+	test.throws(() => Snowflake.generate(true), { instanceOf: TypeError });
 });
