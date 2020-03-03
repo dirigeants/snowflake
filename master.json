@@ -1,0 +1,513 @@
+{
+	"id": 0,
+	"name": "@klasa/snowflake",
+	"kind": 0,
+	"flags": {},
+	"originalName": "",
+	"children": [
+		{
+			"id": 1,
+			"name": "\"index\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/runner/work/snowflake/snowflake/src/index.ts",
+			"children": [
+				{
+					"id": 2,
+					"name": "Snowflake",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "A class for parsing snowflake ids"
+					},
+					"children": [
+						{
+							"id": 9,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"comment": {},
+							"signatures": [
+								{
+									"id": 10,
+									"name": "new Snowflake",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {},
+									"parameters": [
+										{
+											"id": 11,
+											"name": "id",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"shortText": "The id to parse\n"
+											},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "intrinsic",
+														"name": "bigint"
+													}
+												]
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 2,
+										"name": "Snowflake"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 36,
+									"character": 38
+								}
+							]
+						},
+						{
+							"id": 3,
+							"name": "id",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The id in BigInt form"
+							},
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 13,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "bigint"
+							}
+						},
+						{
+							"id": 7,
+							"name": "increment",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The increment stored in the snowflake"
+							},
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 33,
+									"character": 17
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 6,
+							"name": "processID",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The process id stored in the snowflake"
+							},
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 28,
+									"character": 17
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 4,
+							"name": "timestamp",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The timestamp stored in the snowflake"
+							},
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 18,
+									"character": 17
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 5,
+							"name": "workerID",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The worker id stored in the snowflake"
+							},
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 23,
+									"character": 16
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 8,
+							"name": "EPOCH",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPrivate": true,
+								"isStatic": true,
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 36,
+									"character": 21
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							},
+							"defaultValue": "1420070400000"
+						},
+						{
+							"id": 14,
+							"name": "binary",
+							"kind": 262144,
+							"kindString": "Accessor",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The binary string of the snowflake"
+							},
+							"getSignature": [
+								{
+									"id": 15,
+									"name": "__get",
+									"kind": 524288,
+									"kindString": "Get signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The binary string of the snowflake"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 59,
+									"character": 18
+								}
+							]
+						},
+						{
+							"id": 12,
+							"name": "date",
+							"kind": 262144,
+							"kindString": "Accessor",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The timestamp in a Date form"
+							},
+							"getSignature": [
+								{
+									"id": 13,
+									"name": "__get",
+									"kind": 524288,
+									"kindString": "Get signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The timestamp in a Date form"
+									},
+									"type": {
+										"type": "reference",
+										"name": "Date"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 52,
+									"character": 16
+								}
+							]
+						},
+						{
+							"id": 16,
+							"name": "toString",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 17,
+									"name": "toString",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The snowflake as a string"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 66,
+									"character": 16
+								}
+							]
+						},
+						{
+							"id": 18,
+							"name": "generate",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true,
+								"isStatic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 19,
+									"name": "generate",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Generates a Discord like snowflake"
+									},
+									"parameters": [
+										{
+											"id": 20,
+											"name": "timestamp",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "Timestamp or date of the snowflake to generate\n"
+											},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "number"
+													},
+													{
+														"type": "reference",
+														"name": "Date"
+													}
+												]
+											},
+											"defaultValue": "Date.now()"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 2,
+										"name": "Snowflake"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 74,
+									"character": 23
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								9
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								3,
+								7,
+								6,
+								4,
+								5,
+								8
+							]
+						},
+						{
+							"title": "Accessors",
+							"kind": 262144,
+							"children": [
+								14,
+								12
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								16,
+								18
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "index.ts",
+							"line": 8,
+							"character": 22
+						}
+					]
+				},
+				{
+					"id": 21,
+					"name": "INCREMENT",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isLet": true
+					},
+					"sources": [
+						{
+							"fileName": "index.ts",
+							"line": 1,
+							"character": 13
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "bigint"
+					},
+					"defaultValue": "0n"
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						2
+					]
+				},
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						21
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "index.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "Modules",
+			"kind": 1,
+			"children": [
+				1
+			]
+		}
+	]
+}
