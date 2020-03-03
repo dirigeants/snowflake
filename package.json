@@ -1,7 +1,7 @@
 {
-  "name": "@klasa/util",
+  "name": "@klasa/snowflake",
   "version": "0.0.1",
-  "description": "some util thing.",
+  "description": "Deconstructs and generates discord snowflakes using BigInts.",
   "main": "dist/index.js",
   "scripts": {
     "prepublishOnly": "yarn build",
