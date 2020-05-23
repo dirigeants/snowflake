@@ -1,5 +1,5 @@
 import ava from 'ava';
-import { Snowflake } from '../dist';
+import { Snowflake } from '../src';
 
 ava('new Snowflake()', (test): void => {
 	test.plan(8);
