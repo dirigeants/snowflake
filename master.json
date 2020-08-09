@@ -7,7 +7,7 @@
 	"children": [
 		{
 			"id": 1,
-			"name": "\"src/index\"",
+			"name": "\"index\"",
 			"kind": 1,
 			"kindString": "Module",
 			"flags": {
@@ -83,7 +83,7 @@
 							],
 							"sources": [
 								{
-									"fileName": "src/index.ts",
+									"fileName": "index.ts",
 									"line": 36,
 									"character": 38
 								}
@@ -103,7 +103,7 @@
 							},
 							"sources": [
 								{
-									"fileName": "src/index.ts",
+									"fileName": "index.ts",
 									"line": 13,
 									"character": 10
 								}
@@ -127,7 +127,7 @@
 							},
 							"sources": [
 								{
-									"fileName": "src/index.ts",
+									"fileName": "index.ts",
 									"line": 33,
 									"character": 17
 								}
@@ -151,7 +151,7 @@
 							},
 							"sources": [
 								{
-									"fileName": "src/index.ts",
+									"fileName": "index.ts",
 									"line": 28,
 									"character": 17
 								}
@@ -175,7 +175,7 @@
 							},
 							"sources": [
 								{
-									"fileName": "src/index.ts",
+									"fileName": "index.ts",
 									"line": 18,
 									"character": 17
 								}
@@ -199,7 +199,7 @@
 							},
 							"sources": [
 								{
-									"fileName": "src/index.ts",
+									"fileName": "index.ts",
 									"line": 23,
 									"character": 16
 								}
@@ -221,7 +221,7 @@
 							},
 							"sources": [
 								{
-									"fileName": "src/index.ts",
+									"fileName": "index.ts",
 									"line": 36,
 									"character": 21
 								}
@@ -264,7 +264,7 @@
 							],
 							"sources": [
 								{
-									"fileName": "src/index.ts",
+									"fileName": "index.ts",
 									"line": 59,
 									"character": 18
 								}
@@ -302,7 +302,7 @@
 							],
 							"sources": [
 								{
-									"fileName": "src/index.ts",
+									"fileName": "index.ts",
 									"line": 52,
 									"character": 16
 								}
@@ -337,7 +337,7 @@
 							],
 							"sources": [
 								{
-									"fileName": "src/index.ts",
+									"fileName": "index.ts",
 									"line": 66,
 									"character": 16
 								}
@@ -402,7 +402,7 @@
 							],
 							"sources": [
 								{
-									"fileName": "src/index.ts",
+									"fileName": "index.ts",
 									"line": 74,
 									"character": 23
 								}
@@ -448,7 +448,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "src/index.ts",
+							"fileName": "index.ts",
 							"line": 8,
 							"character": 22
 						}
@@ -464,7 +464,7 @@
 					},
 					"sources": [
 						{
-							"fileName": "src/index.ts",
+							"fileName": "index.ts",
 							"line": 1,
 							"character": 13
 						}
@@ -494,24 +494,7 @@
 			],
 			"sources": [
 				{
-					"fileName": "src/index.ts",
-					"line": 1,
-					"character": 0
-				}
-			]
-		},
-		{
-			"id": 22,
-			"name": "\"test/Util\"",
-			"kind": 1,
-			"kindString": "Module",
-			"flags": {
-				"isExported": true
-			},
-			"originalName": "/home/runner/work/snowflake/snowflake/test/Util.ts",
-			"sources": [
-				{
-					"fileName": "test/Util.ts",
+					"fileName": "index.ts",
 					"line": 1,
 					"character": 0
 				}
@@ -523,8 +506,7 @@
 			"title": "Modules",
 			"kind": 1,
 			"children": [
-				1,
-				22
+				1
 			]
 		}
 	]
